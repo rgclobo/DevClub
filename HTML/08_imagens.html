@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <p>A tag &lt;img&gt; é responsavel por adicionar uma imagem ao nosso site, ela é acompanhada do 
+        parametro <b>src=""</b>, que significa <i>source</i>, melhor dizendo, a origem 
+        da nossa imagem.</p>
+    <p>Essa imagem pode ser tanto do nosso computador, ou um link vindo da internet.</p>
+    <p>O atributo <b>alt=""</b> serve para quando sua imagem não pode ser carregado por algum motivo.
+        Caso isso ocorra, esse texto ira aparecer. Também é responsavel por melhorar a acessibilidade
+        da nossa página para as pessoas com dificuldades visuais. Deve colocar nesse atributo uma 
+        descrição do que é essa imagem.</p>
+
+    <h2>Imagens com Links da Internet</h2>
+    <p>Vai usar a tag &lt;img&gt; com o parametro <b>src=""</b> e <b>alt=""</b>, da seguinte forma:</p>
+    <p>&lt;img src="https://www.infoescola.com/wp-content/uploads/2010/04/limao.jpg" alt="Limões"&gt;</p>
+    <img src="https://www.infoescola.com/wp-content/uploads/2010/04/limao.jpg" alt="Limões">
+    <hr>
+    <h2>Imagens próprias</h2>
+    <p>Vai usar a tag &lt;img&gt; com o parametro <b>src=""</b> e <b>alt=""</b>, da seguinte forma:</p>
+    <p>&lt;img src="./imagem/laranja.jpg" alt="Laranja"&gt;</p>
+    <img src="./imagem/laranja.jpg" alt="Laranja">
+<hr>
+
+    <h2>Tag &lt;figure&gt;</h2>
+    <p>A tag &lt;figure&gt;, serve para colocar as imagens dentro dela, dando a opção de usar a tag 
+        &lt;figcaption&gt;, que é uma descrição da imagem. Para os motores de busca, usar as imagens
+        dentro da &lt;figure&gt; é melhor. Também pode ajudar na hora de estilização.</p>
+    <figure>
+        <img src="./imagem/salada-de-fruta.jpg" alt="Salada de frutas">
+        <figcaption>Salada de frutas</figcaption>
+    </figure>
+<hr>
+    <h2>Outros parametros na tag &lt;img&gt;</h2>
+    <p>É possivel usar os parametros de altura '<b>height=""</b>' e de largura '<b>width=""</b>' nas imagens.</p>
+    <img src="./imagem/abacate.jpg" 
+    alt="abacate" 
+    height="350px" 
+    width="">
+    <p>Sempre lembrar que ao alterar as proporções da imagem, pode acontecer que distorça a mesma.
+        Vale sempre usar apenas uma, que a outra é ajustada automaticamente de maneira que fique melhor.
+    </p>
+</body>
+</html>
