@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h1>Videos</h1>
+    <p>Para colocar um vídeo na sua página, utiliza-se a Tag &lt;video&gt; .</p>
+    <p>Existem alguns parametros, como o <b>src=""</b> que é a origem do vídeo. O parametro 
+        <b>controls</b> que serve para inserir os controles de Play/Pause, Volume, Velocidade,
+         tamanho de tela. O parametro <b>controlsList="nodownload"</b> que serve para bloquear o 
+         download do video. O parametro <b>autoplay</b> vai fazer com que o video seja iniciado
+        automaticamente no navegador, mas lembre-se: alguns navegadores bloqueiam essa função 
+       para o usuário não ter um experiencia ruim. O parametro <b>muted</b> faz com que o video venha
+        mudo automaticamente. Com esse parametro ativo, o parametro de <b>autoplay</b> funciona normalmente.
+     O Atributo <b>poster=""</b> é responsavel por poder trocar a capa do video. É possivel também colocar os parametros de <b>width e height</b> e configurar o tamanho pelo HTML.</p>
+
+<pre><code>
+&lt;video src="" 
+    controls 
+    controlsList="nodownload" 
+    autoplay 
+    muted 
+    poster=""&gt;
+&lt;/video&gt;
+</code></pre>
+
+    <video src="" 
+        controls 
+        controlsList="nodownload" 
+        autoplay 
+        muted 
+        poster="">
+    </video>
+
+    <p>Outra abordagem possivel é não colocar a propriedade <b>src=""</b>, e colocar dentro da tag &lt;video&gt;, a tag &lt;source&gt; . 
+    E nela sim colocar o parametro <b>src=""</b> . Isso é apenas uma alternativa para caso alguma extensão de vídeo acabe não funcionando. 
+    Assim o navegador vai ter outras extensões e o usuário possa assistir o que você deseja na página.</p>
+
+ <pre><code>
+&lt;video controls&gt;
+    &lt;source src="./video.mkv"&gt;
+    &lt;source src="./video.mov"&gt;
+    &lt;source src="./video.mp4"&gt;
+&lt;/video&gt;
+ </code></pre>   
+<video controls>
+    <source src="./video.mkv">
+    <source src="./video.mov">
+    <source src="./video.mp4">
+</video>
+    
+</body>
+</html>
