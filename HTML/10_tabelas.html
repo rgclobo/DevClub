@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+
+    <!-- Tabelas -->
+
+    
+
+    <h1>Tabelas</h1>
+
+    <p>Para criar uma tabela, usa-se  a TaG &lt;table&gt; .</p>
+    <p>Dentro da Tag &lt;table&gt; para adicionar as linhas da célula de uma Tabela, se usa a tag &lt;tr&gt; . </p>
+    <p>Por sua vez dentro das Tag's &lt;tr&gt;, é utilizada a tag &lt;th&gt; que é o cabeçalho da tabela, e a tag &lt;td&gt; que vai as informações da tabela.
+    <hr>
+    <p>No Exemplo abaixo, foi criada uma tabela que simula um controle de gastos.</p>
+    <p>Na parte de cabeçalho foi inserido as informações <b>Tipo de Compra</b>, <b>Valor</b> e <b>data</b>.</p>
+    <p>Ja na parte dos dados são inseridos quais foram os tipos de gastos, com seus custos e as suas diferentes datas de consumo.</p>
+    <p>Exemplo abaixo:</p>
+<pre><code>
+&lt;table border="1" cellpadding="5" bordercolor="black"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Tipo de compra&lt;/th&gt;
+        &lt;th&gt;Valor&lt;/th&gt;
+        &lt;th&gt;Data&lt;/th&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;Alimentação&lt;/td&gt;
+        &lt;td&gt;R$30,00&lt;/td&gt;
+        &lt;td&gt;01/11/2023&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;Diversão&lt;/td&gt;
+        &lt;td&gt;R$48,00&lt;/td&gt;
+        &lt;td&gt;02/11/2023&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;Transporte&lt;/td&gt;
+        &lt;td&gt;R$13,00&lt;/td&gt;
+        &lt;td&gt;03/11/2023&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+
+    <!-- É possivel colocar parametros na tabela direto no HTML -->
+    <table border="1" cellpadding="5" bordercolor="black">
+        <tr>
+            <th>Tipo de Compra</th>
+            <th>Valor</th>
+            <th>Data</th>
+        </tr>
+
+        <tr>
+            <td>Alimentação</td>
+            <td>R$30,00</td>
+            <td>01/11/2023</td>
+        </tr>
+        <tr>
+            <td>Diversão</td>
+            <td>R$48,00</td>
+            <td>02/11/2023</td>
+        </tr>
+        <tr>
+            <td>Transporte</td>
+            <td>R$13,00</td>
+            <td>03/11/2023</td>
+        </tr>
+    </table>
+</body>
+</html>
