@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <h1>Input</h1>
+    <p>A tag &lt;input&gt; é a responsável por criar as caixas que recebem informações nos sites.</p>
+    <p>Como a caixa que pesquisamos no google, as caixas de login e senha e qualquer lugar onde for necessário inserir informações.</p>
+    <p>É por essa Tag, que vai ser colocada as informações que são enviadas para um sistema, site e etc.</p>
+    
+    <p>Existem várias propriedades para a tag:</p>
+
+    <ul>
+        <li>type="" - É o tipo do input. Pode ser do tipo text, number, password, email, button, checkbox e etc ... </li>
+        <li>autocomplete - Completa os campos automaticamente, tendo variações dentro como: nome, email, endereço e etc ...</li>
+        <li>disabled - serve para desabilitar o input</li>
+            <p>- Input abaixo com a propriedade disable:</p>
+            <input disabled><br><br>
+        <li>value="" - Vai inserir um valor no input que já virá definido</li>
+        <li>readonly - Vai fazer com que o input seja apenas para leitura, não permite que seja digitado nada. Mas não é como a aparencia do desabilitado.</li>
+            <p>- Input Abaixo com a propriedade value="" e readonly:</p>
+            <input value="Ricardo" readonly><br><br>
+        <li>placeholder - É a propriedade que deixa a informação para que serve o campo que vai ser criado. Pode escrever o que desejar nele. </li>
+            <p>- Input abaixo com a propriedade placeholder:</p>
+            <input placeholder="Digite sua rua"><br><br>
+        <li>autofocus - Essa propriedade, vai fazer com que o esse input já venha com um foco automatico ao abrir a página.</li>
+        
+        <li></li>
+        <li></li>
+    </ul>
+    <hr>
+
+    <p>Exemplo abaixo de um Input:</p>
+    <pre><code>
+    &lt;input 
+        autocomplete="name" 
+        placeholder="Digite seu nome" 
+        autofocus
+    &gt;
+    </code></pre>
+
+    <input 
+    autocomplete="name" 
+    placeholder="Digite seu nome" 
+    autofocus
+    ><br>
+    <hr><br>
+    <p>Algo muito importante que acompanha o &lt;input&gt;, é o &lt;label&gt;.</p>
+    <p>O label é a etiqueta do input, e através dele, conseguimos fazer a vinculação de ambos através do atributo <b>for=""</b> no label e informando esse atributo no <b>id=""</b> no input.</p>
+    <p>Exemplo abaixo:</p>
+    <pre><code>
+    &lt;label 
+        for="rua"&gt;Rua:
+    &lt;/label&gt;
+
+    &lt;input 
+        id="rua" 
+        type="text"
+        autocomplete="street-address" 
+        placeholder="Digite sua rua"
+    &gt;
+    </code></pre>
+
+    <label for="rua">Rua:</label>
+    <input type="text" id="rua" autocomplete="street-address" placeholder="Digite sua rua">
+</body>
+</html>
+
+
+<!--  -->
