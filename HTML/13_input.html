@@ -14,7 +14,7 @@
     <p>Existem várias propriedades para a tag:</p>
 
     <ul>
-        <li>type="" - É o tipo do input. Pode ser do tipo text, number, password, email, button, checkbox e etc ... </li>
+        <li>type="" - É o tipo do input. Existem muitos tipos de type. Pode ser do tipo text, number, password, email, button, checkbox e etc ... </li>
         <li>autocomplete - Completa os campos automaticamente, tendo variações dentro como: nome, email, endereço e etc ...</li>
         <li>disabled - serve para desabilitar o input</li>
             <p>- Input abaixo com a propriedade disable:</p>
@@ -27,9 +27,6 @@
             <p>- Input abaixo com a propriedade placeholder:</p>
             <input placeholder="Digite sua rua"><br><br>
         <li>autofocus - Essa propriedade, vai fazer com que o esse input já venha com um foco automatico ao abrir a página.</li>
-        
-        <li></li>
-        <li></li>
     </ul>
     <hr>
 
@@ -66,8 +63,43 @@
 
     <label for="rua">Rua:</label>
     <input type="text" id="rua" autocomplete="street-address" placeholder="Digite sua rua">
+
+    <hr>
+    <h2>Alguns tipos de  &lt;input type=""&gt;</h2>
+    <ul>
+        <li>type="text" - É o input que recebe informações em geral.</li><br>
+            <input type="text"><br><br>
+        <li>type="color" - Vai permitir escolher uma cor em uma caixa em cores hexidecimais.</li><br>
+            <input type="color"><br><br>
+        <li>type="range" - Abre uma barra de range, aonde é possivel escolher o valor, ela permite alguns atributos como: min="0" (Valor minimo) max="10" (Valor máximo) value="0" (Valor Inicial) e entre outros. </li>
+            <input type="range" min="0" max="10" value="0" ><br><br>
+        <li>type="password" - É o input para inserir senhas. Vai deixar os caracteres ocultos por se tratar de uma senha.</li><br>
+            <input type="password"><br><br>
+        <li>type="email" - É o input que vai receber os e-mails. Se ao validar o mesmo, não for um e-mail no formato seuemail@seuemail.com, vai negar o envio.</li><br>
+            <input type="email" placeholder="Digite seu email"><br><br>
+        <li>type="checkbox" - É o input de marcação de check. Veja exemplo: </li>
+            <label for="check">Marque se você entendeu:</label> <input type="checkbox" id="check"><br><br>
+        <li>type="file" - É o input que permite fazer o envio (upload) de arquivos. Ele permite o atributo 'multiple' que permite fazer o envio de multiplos arquivos. Permite o atributo 'accept', que vai setar o formatos dos arquivos aceitos.</li>
+            <input type="file" multiple accept="image/*"><br><br>
+        <li>type="number" - É o input que só permite números.</li><br>
+            <input type="number"><br><br>
+        <li>type="date" - É o input que vai permitir datas</li><br>
+            <input type="date"><br><br>
+        <li>type="radio" - É o input que permite selecionar opções.</li>
+            <input type="radio">
+    </ul>
+
+    <h3>Quais suas rede social favorita?</h3>
+    <label for="facebook">Facebook</label>
+        <input type="radio" id="facebook" name="redes-sociais">
+        <br>
+    <label for="intagram">Instagram</label>
+        <input type="radio" id="instagram" name="redes-sociais">
+        <br>
+    <label for="youtube">Youtube</label>
+        <input type="radio" id="youtube" name="redes-sociais"><br>
+
+    <p>Lembre-se: Se o 'name' do type="radio forem todos iguais eles vão estar interligados entre si, podendo escolher apenas uma opção entre elas!</p>
+
 </body>
 </html>
-
-
-<!--  -->
