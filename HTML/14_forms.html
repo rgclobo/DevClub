@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- - Capturar dados de entrada
+            --Input -> Entrada
+
+        - Action -> define para qual url será enviado os dados, vazio envia para a mesma url
+        
+        Method:
+            --Get -  Envia os dados através da URL
+            --Post - Envia os dados encriptografados
+    -->
+    
+    <h1>Formulário</h1>
+    <p>A tag &lt;form&gt;, é responsavel para agrupar os dados de um formulário e enviar ao mesmo tempo todos os &lt;input&gt; que estiverem dentro dele.</p>
+    <p>A propriedade <b>action=""</b> é responsavel por receber o endereço de onde vão ser enviados os dados do formulário.</p>
+    <p>a propriedade <b>method=""</b>, tem dois atributos. A <b>get</b> e a <b>post</b>.</p>
+    <p>- <b>method="get"</b> é quando as informações do formulário são remetidas através da URL do site. É possivel velas ao dar enviar. Não é recomendavel e nem seguro quando se trata de dados de senha ou informações de cartão de crédito e afins.</p>
+    <p>- <b>method="post"</b> faz o envio das informações do formulário de forma encriptografadas. Maneira segura!</p>
+    <p>Para fazer o envio dos dados do arquivos, usamos a tag &lt;button&gt;. Nela temos algumas propriedades, as usadas abaixo são a <b>type="reset"</b> e a <b>type="submit"</b>.</p>
+    <p>- <b>type="reset"</b> Vai limpar completamente todos os dados informados no seu formulário!</p>
+    <p>- <b>type="submit"</b> Vai fazer o envio dos dados do seu formulário!</p>
+    <p>Quando for vincular arquivos no seu formulário, pelo campo <b>type="file"</b> é necessário informar um atributo na tag &lt;form&gt;, o <b>enctype="multipart/form-data</b>, para que o servidor seja informado que vai receber arquivos neste formulário.</p>
+    <p>Exemplo:</p>
+    <pre><code>
+        &lt;form action="" method="get" enctype="multipart/form-data"&gt;
+        &lt;label for="name"&gt;Nome&lt;/label&gt;
+        &lt;input type="text" name="name" id="name"&gt;
+
+        &lt;label for="email"&gt;Email:&lt;/label&gt;
+        &lt;input type="email" name="email" id="email"&gt;
+
+         &lt;label for="file"&gt;Arquivo: &lt;/label&gt;
+         &lt;input type="file" name="file" id="file"&gt;
+        
+        &lt;button type="reset"&gt;Limpar&lt;/button&gt;
+        &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+        &lt;/form&gt;
+    <form action="" method="get" enctype="multipart/form-data">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="file">Arquivo:</label>
+        <input type="file" name="file" id="file">
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form>
+    </code></pre>
+    <hr>
+
+    <h2>Formulário em Aula:</h2>
+    <form action="" method="get">
+        <h3>Digite seu endereço</h3>
+        <label>Rua:</label>
+        <input type="text" name="street" autocomplete="street-address">
+        <label>Número:</label>
+        <input type="number" name="number">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form action="" method="get">
+        <h3>Digite seus dados:</h3>
+        <label for="name">Nome</label>
+        <input type="text"
+                id="name"
+                name="name">
+        <label for="email">Email:</label>
+        <input type="email"
+                id="email"
+                name="email">
+        <label for="password">Senha:</label>
+        <input type="password"
+                id="password"
+                name="password">
+        <label for="file">Arquivo:</label>
+        <input type="file"
+                name="file"
+                id="file">
+        
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form>
+<br><br><br><br><br><br>
+
+
+</body>
+</html>
