@@ -1,0 +1,30 @@
+h1{
+    margin-left: 10px;
+    color: red;
+    background-color: aqua;
+}
+
+p{
+    margin-left: 10px;
+}
+
+h1 + p{
+    color: blue;
+    font-size: 20px;
+}
+
+h2{ 
+    margin-left: 10px;
+}
+
+button{
+    margin-left: 10px;
+    background-color: green;
+    border-color: darkgreen;
+    border-radius: 5px;
+    padding: .5em;
+}
+
+.upper{
+    text-transform: uppercase;
+}
