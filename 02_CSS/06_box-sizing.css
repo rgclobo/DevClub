@@ -20,7 +20,7 @@
 /* BOX SIZING */
 /* Existem dois valores para essa propriedade */
 /* content-box - faz com que os valores de padding, border e 
-outras propriedades que cresçam o elemento sejam somadas
+outras propriedades que cresçam o elemento! São somadas
 ao tamanho dele.*/
 /* border-box - Não cresce o tamanho do elemento independente dos
 que seja adicionado nele. */

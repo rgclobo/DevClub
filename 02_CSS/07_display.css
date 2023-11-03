@@ -1,0 +1,44 @@
+.box{
+    background-color: #ccc;
+    height: 50px;
+    width: 50px;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+.box-2{
+    background-color: #5a5959;
+}
+
+.box-3{
+    background-color: #2c2c2c;
+}
+
+/* 
+DISPLAY
+    - BLOCK
+    - INLINE
+    - INLINE-BLOCK
+
+    - GRID
+    - FLEX
+    
+    - BLOCK
+        - Vem como padrão: div, section, article ...., p, h1, h2 ...., ul, li ...
+            -- Ocupa 100% da largura do elemento pai
+            -- Sempre ocupa toda a linha
+            -- Altura definida de acordo com o conteúdo
+            -- Podemos definir height e width
+            -- Podemos definir valores de margin
+    - INLINE
+        - Vem como padrão: a, span, b, i ....
+            -- Elementos em linha
+            -- Não permite alterar height e width, ele sempre vai se adaptar ao conteúdo
+            -- Não podemos definir valores de margin top e bottom
+            -- Ganha comportamento de uma palavra
+    - INLINE-BLOCK
+        -
+            -- Elementos em linha, porém com caracterisca do display BLOCK
+            -- Altura e largura podem ser alterados.
+            -- Pode definar margin em todos os lados*/
