@@ -1,0 +1,33 @@
+html{
+    /* Vai trocar a família das fontes */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    /* Troca a cor do texto */
+    color: blue;
+    /* Troca o tamanho da fonte */
+    font-size: 32px;
+    /* Vai mudar o peso da fonte */
+    font-weight: 600;
+    /* Muda o estilo da fonte para Italico ou obliquo */
+    font-style: italic;
+    /* Coloca sombra no texto - Os valores são na Horizontal / Vertical / Esfumaçamento / cor*/
+    text-shadow: 10px 10px 20px #ccc;
+}
+
+p{
+    color: #87b937;
+    /* Muda o espaçamento das linhas */
+    line-height: 20px;
+    /* muda o espaçamento das letras */
+    letter-spacing: 5px;
+    /* Muda o espaçamento entre as palavras */
+    word-spacing: 5px;
+    /* Alinhamento do texto */
+    text-align: justify;
+    /* Transforma o texto entre maiusculo e minusculo, pode escolher todas ou só a primeira letra, entre as propriedades */
+    text-transform: capitalize;
+    /* Decoração do texto com linhas, ou na parte de cima, ou na parte debaixo ou no meio do texto ou linhas traçadas */
+    text-decoration: underline;
+}
