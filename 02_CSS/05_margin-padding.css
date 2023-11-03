@@ -1,0 +1,41 @@
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+
+    /* Margin é um espaço que acontece em volta do elemento */
+    margin: 20px;
+
+    /* o Padding é quando você expande o elemento de dentro para fora */
+    padding: 50px;
+
+}
+
+.box-2{
+    width: 50px;
+    height: 50px;
+    background-color: #353535;
+    margin: 50px;
+    padding: 30px;
+}
+
+.box-3{
+    width: 50px;
+    height: 50px;
+    background-color: #214d49;
+    /* É possivel criar Margin e padding nas posições especificas. Podendo aplicar valores diferentes. */
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    /* A propriedade margin é o atalho para todas a propriedades acima. */
+    /* Sendo que começa sempre do topo para a esquerda */
+    /* Ficando assim: margin: 10px 15px 10px 15px */
+    /* E quando os valores forem iguais, podemos oculta-los. */
+    /* Digamos que queremos margim no top e bottom de 50px e no right e no left de 25px */
+    /* Basta realizar o comando assim: */
+    margin: 50px 25px;
+    /* O mesmo vale para o Padding - Agora com valores todos diferentes */
+    padding: 15px 20px 25px 30px;
+        /*  top right bottom left  */
+}
