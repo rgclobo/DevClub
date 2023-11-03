@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+<body>
+
+    <!-- 
+        Button
+        type=""
+            -- submit
+            -- button
+            -- reset 
+            -- disable
+    -->
+
+    <h1>Button</h1>
+    <p>A tag &lt;button&gt; é responsavel por duas coisas dentro de um formulário.</p>
+    <p>Limpar os dados desse formulário através da propriedade <b>type="reset", que vai literalmente apagar tudo que tenha sido preenchido nesse formulário.</b></p>
+    <p>Enviar os dados que foram preenchidos no formulário, através da propriedade <b>type="submit"</b>. Ao clicar, vai enviar os dados preenchidos para onde foi configurado na tag &lt;form&gt; .</p>
+    <p>Exemplo:</p>
+    <pre><code>
+        &lt;form"&gt;
+        &lt;button type="reset"&gt;Limpar&lt;/button&gt;
+        &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+        &lt;/form&gt;
+    <form>
+        <button type="reset">Limpar</button><br>
+        <button type="submit">Enviar</button>
+    </form>
+    </code></pre>
+
+    <p>Existem mais outra propriedade para a tag &lt;button&gt; .</p>
+    <p>A propriedade <b>type="button"</b> que serve apenas como um botão mesmo. Usado mais de forma conjunta com JS. Podendo ser programado para chamar outras funções, se assim o mesmo for programado.</p>
+    <button type="button">Enviar</button>
+    <p>Um Exemplo é usar o <b>type="button"</b>, com função "disabled, fazendo com que o botão só fique ativo após o usuário cumprir alguma circustancia programada pelo desenvolvedor.</p>
+    <button type="button" disabled>Enviar</button>
+
+    
+</body>
+</html>
