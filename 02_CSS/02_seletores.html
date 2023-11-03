@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <link rel="stylesheet" href="./02_seletores.css">
+</head>
+<body>
+    <h1>Seletores</h1>
+    <p>Um seletor Css é a forma que vamos conseguir linkar a estilização do CSS com o HTML.</p>
+    <hr>
+    <h2>Seletores pela Tag </h2>
+    <p>Uma maneira de conseguir selecionar é através da tag utilizada.</p>
+    <p>No exemplo abaixo, iriamos estilizar a tag &lt;h1&gt; no arquivo .css.</p>
+    <pre><code>
+        h1{
+            color: blue;
+            font-size: 20px;
+        }
+    </code></pre>
+    <p>Lembre-se: Ao selecionar a tag que você vai estilizar, coloque a tag, abra e feche um colchetes (<b> {} </b>) e escreva as estilizações dentro. Assim como foi feito no exemplo acima.</p>
+    <p>Mas isso gera um problema, que ao fazer isso, toda e qualquer tag &lt;h1&gt;, irá receber a mesma estilização. No caso irá ficar na cor azul e com 20px de tamanho. E se quisermos selecionar mais especificamente?</p>
+    <hr>
+    <h2>Seletores por Classes (class="") e Identificador único (id="")</h2>
+    <h3>Classes (class="")</h3>
+    <p>A classe é como se fosse um CEP do elemento. Serve para identificar um ou vários elementos HTML ao mesmo tempo. Ao criar classes pelo HTML, podemos selecionalas pelo CSS e estilizalas de uma maneira mais especifica.</p>
+        <h4 class="ex-tituloclass texto">Titulo de exemplo com Classe</h4>
+        <p class="ex-paragrafoclass texto">Paragrafo exemplo com classe </p>
+        <button class="texto ex-buttonclass">Botão com classe</button>
+    
+        <hr>
+    <h3>Identificador único (id="")</h3>
+    <p>O Identificador único (id=""), é como se fosse o CPF do elemento, pois só é possivel colocar um (id="") por elemento dentro de um HTML. Da mesma forma que a classe, ao criar ele no HTML, podemos selecionalo no CSS e estilizar. Mas sempre de maneira única!</p>
+        <h4 id="ex-titulo">Titulo de Exemplo com id</h4>
+        <p id="ex-paragrafo">Exemplo de paragrafo com id</p>
+        <button id="ex-button">Botão com id</button>
+</body>
+</html>

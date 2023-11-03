@@ -1,0 +1,44 @@
+html{
+    font-family: sans-serif;
+}
+/* Estilos com Classe */
+.ex-tituloclass{
+    color: red;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.paragrafoclass{
+    color: blue;
+    font-size: 25px;
+}
+.ex-buttonclass{
+    color: white;
+    background-color: black;
+    padding: .8em;
+    margin: 10px 0;
+}
+/* A classe .texto, está na tag h4 , p e button.
+ deixando todos ao mesmo tempo em maiusculo */
+.texto{
+    text-transform: uppercase;
+}
+/* Estilos com id */
+#ex-titulo{
+    color: blue;
+    margin: 15px 25px;
+    font-size: 50px;
+}
+#ex-paragrafo{
+    color: brown;
+    font-size: 25px;
+    margin: 5px 30px;
+}
+#ex-button{
+    padding: .5em;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
