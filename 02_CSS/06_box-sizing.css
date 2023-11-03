@@ -1,0 +1,26 @@
+.box{
+    background-color: #ccc;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 50px solid red;
+    box-sizing: border-box;
+}
+
+.box-2{
+    background-color: blue;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 50px solid red;
+    box-sizing: content-box;
+}
+
+/* BOX SIZING */
+/* Existem dois valores para essa propriedade */
+/* content-box - faz com que os valores de padding, border e 
+outras propriedades que cresçam o elemento sejam somadas
+ao tamanho dele.*/
+/* border-box - Não cresce o tamanho do elemento independente dos
+que seja adicionado nele. */
