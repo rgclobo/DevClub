@@ -1,0 +1,38 @@
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.pixel{
+    font-size: 30px;
+}
+
+.pixel + p{
+    font-size: 20px;
+}
+
+.pai{
+    font-size: 30px;
+}
+
+.filho{
+    font-size: 50%;
+    /* Aqui a fonte é 15px */
+}
+
+.divpai{
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    color: white;
+}
+
+.divfilho{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    color: white;
+}

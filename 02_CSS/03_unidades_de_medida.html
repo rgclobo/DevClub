@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Unidades de Medida</title>
+    <link rel="stylesheet" href="./03_unidades_de_medida.css">
+</head>
+<body>
+    <h1>Unidades de Medida</h1>
+
+    <h2>Absolutas</h2> 
+    <ul>
+        <li class="pixel">Pixels (px)</li>
+            <p>É a mais usada!</p>
+        <li>Inches / Polegadas (in)</li>
+        <li>Centímetro  / Milímetro (cm / mm)</li>
+    </ul>
+
+    <h2>Relativas</h2>
+    <div class="vo">
+        <ul class="pai">
+            <li class="filho">% - Calcula o tamanho relativo ao elemento pai</li>
+            <li>vw - (view width) 1vw é 1% da largura da janela do navegador</li>
+            <li>vh - (view height) 1vh é 1% da altura da janela do navegador</li>
+            <li>em - é uma unidade relativa ao elemento pai</li>
+            <li>rem - é uma unidade relativa ao elemento raiz</li>
+        </ul>
+    </div>
+
+    <div class="divpai"> Div Pai - Altura em 50vh e Largura em 50vw
+        <div class="divfilho">Div Filho - com altura e largura em 50%</div>
+    </div>
+</body>
+</html>
