@@ -7,11 +7,6 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
-.img-logo{
-    width: 568px;
-    height: 500px;
-}
-
 .nav-header{
     margin: 44px 0 144px 76px;
 }
@@ -30,4 +25,52 @@ html{
     background-color: #665ae1;
     border-radius: 20.5px;
     padding: 5px 16px;
+}
+
+.img-logo{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.main-content{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+.main-content h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+.main-content h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+.main-content p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin: 32px 0 65px;
+}
+
+.main-content .btn{
+    background-color: #ADFF00;
+    color: #000000;
+    font-size: 28;
+    line-height: 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 45px;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / .25);
 }
