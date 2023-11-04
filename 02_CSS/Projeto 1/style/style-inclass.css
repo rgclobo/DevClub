@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-logo{
+    width: 568px;
+    height: 500px;
+}
+
+.nav-header{
+    margin: 44px 0 144px 76px;
+}
+
+.nav-header a{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    text-decoration: none;
+    margin-right: 23px;
+    text-transform: uppercase;
+}
+.nav-header a:nth-child(6){
+    color: #FFFFFF;
+    background-color: #665ae1;
+    border-radius: 20.5px;
+    padding: 5px 16px;
+}
