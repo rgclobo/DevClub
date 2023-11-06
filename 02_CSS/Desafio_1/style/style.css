@@ -31,9 +31,10 @@ html{
     line-height: 24px;
     letter-spacing: 1px;
     text-align: left;
+    background-color: #6FBF44;
     /* Button */
-    background-color: #4CB538;
-    padding: 1.4rem 2.825rem;
+    border: 1px solid #4CB538;
+    padding: 1.3rem 2.725rem;
     border-radius: 5px;
 }
 
@@ -46,11 +47,11 @@ html{
 
 .main_content{
     display: inline-block;
-}
-
-.main_content h1, .main_content p, .main_content .btn_learn {
     margin-left: 8.482rem;
 }
+/* .main_content h1, .main_content p, .main_content .btn_learn {
+    margin-left: 8.482rem;
+} */
 
 .main_content h1{
     width: 58.2rem;
