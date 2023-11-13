@@ -1,0 +1,140 @@
+/* PSEUDO CLASSES
+    :active -> quando o elemento está ativo, ou seja, está sendo pressionado 
+    :visited -> seleciona o link que já foi visitado
+    :hover -> quando o mouse passa por cima do elemento
+    :checked -> usado nas propriedades radio / checkbox / select
+    :disabled -> elemento desabilitado > button / input
+    :enabled -> elemento está habilitado
+    :focus -> é aplicado quando o elemento recebe foco, o que pode ocorrer quando o usuário
+ seleciona o elemento
+    :read-only -> seleciona o input ou textarea que são apenas leitura
+    :empty -> elemento que não tem filho
+
+    :first-child -> primeiro filho / Ex: primeira li de uma ul / primeiro span de uma div
+    :first-of-type -> primeiro elemento de seu tipo entre os filhos de um elemento pai.
+    :last-child -> último filho
+    :not() -> Vai alterar algo em algum elemento, exceto o que está dentro do ().
+    :nth-child() -> Seleciona o elemento baseado na sua posição / Ex: :nth-child(3);
+    :nth-last-child() -> seleciona o elemento baseado na sua posição, contando de trás para
+ frente.
+*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style-type: none;
+}
+
+.link1{
+    color: aqua;
+}
+
+.link1:active{
+    color: red;
+}
+
+.link1:visited{
+    color: black;
+}
+
+.link1:hover{
+    color: purple;
+}
+.hover_p{
+    color: brown;
+}
+.hover_p:hover{
+    color: blue;
+}
+
+hr{
+    margin-bottom: 25px;
+}
+
+input{
+    margin: 10px;
+}
+
+.input_checkbox:checked {
+    width: 100px;
+    height: 100px;
+}
+
+.input_disable:disabled{
+    height: 50px;
+    width: 50px;
+}
+
+.input_focus:focus{
+    border: 2px solid red;
+    outline: none;
+}
+
+.input_readonly:read-only{
+    border: 2px solid purple;
+}
+
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: #ccc;
+    margin: 25px;
+}
+
+.container:empty{
+    background-color: blue;
+}
+
+ul{
+    margin: 25px;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: green;
+}
+
+li:nth-child(4){
+    color: purple;
+}
+
+li:nth-last-child(3){
+    color: blue;
+}
+
+.div1 span:first-of-type{
+    color: magenta;
+}
+
+.div1 p:first-of-type{
+    color: red;
+}
+
+.div1 span:last-of-type{
+    color: green;
+}
+
+.div1 p:last-of-type{
+    color: blueviolet;
+}
+
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color: #ccc;
+    margin: 25px;
+    font-size: 10px;
+}
+
+.div2 :not(p){
+    color: red;
+}
+
+.div2 :not(.excluido){
+    font-size: 20px;
+}
+
