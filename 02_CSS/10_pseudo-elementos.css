@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder{
+    color: yellow;
+}
+
+p{
+    color: blue;
+    margin-bottom: 25px;
+}
+p::first-line{
+    color: aquamarine;
+}
+
+p::first-letter{
+    color: red;
+}
+hr{
+    margin-bottom: 15px;
+}
+
+/* Pseudo Elementos ::after (depois) e ::before (antes) */
+a::before{
+    content: "> ";
+}
+
+a::after{
+    content: " <";
+}
+
+
+
+
+
+
+
