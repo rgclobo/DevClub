@@ -16,9 +16,136 @@ html{
 .container-left{
     display: inline-block;
     width: 60%;
+    margin-top: 381px;
+    padding-left: 136px;
+    /* margin: 381px 0px 0 136px; */
+}
+
+.img-woman{
+    position: relative;
+    top: 25%;
+    right: 140px;
 }
 
 .container-right{
-display: inline-block;
-background-color: rgb(93 93 126 / .16);
+    display: inline-block;
+    background-color: rgb(93 93 126 / .16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header_nav{
+    margin: 24px 0 0 57px;
+}
+.header_nav a{
+    margin-right: 41px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41.5px;
+    color: #5D5D7D;
+}
+.header_nav a:nth-child(2){
+    opacity: .4;
+}
+.header_nav a:hover{
+    opacity: .4;
+}
+.header_nav a:active{
+    opacity: .8;
+}
+
+.content_h1{
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #5D5D7D;
+    text-transform: capitalize;
+}
+
+.content_p{
+    width: 540px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #5D5D7D3C;
+    margin: 15px 0;
+}
+
+.content_btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #9499EA;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 13px 84.4px;
+    border-radius: 40px;
+}
+.content_btn:hover{
+    opacity: .9;
+}
+.content_btn:active{
+    opacity: .7;
+}
+
+@media screen and (max-width: 900px){
+.container-left{
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+.container-right{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 40px;
+}
+.img-woman{
+    position: static;
+    max-width: 90%;
+}
+
+.header_nav{
+    display: none;
+}
+
+.content_h1{
+    font-size: 36px;
+    line-height: 52px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+}
+
+.content_p{
+    margin: 15px 40px;
+    width: auto;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.content_btn{
+    margin: 0 auto;
+    display: block;
+    width: 269px;
+    height: 62px;
+    text-align: center;
+    padding: 12px 0;
+}
+}
+
+@media screen and (max-width: 375px){
+    .container-left{
+        height: 70%;
+    }
 }
