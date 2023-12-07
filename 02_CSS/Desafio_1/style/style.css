@@ -8,8 +8,12 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
 }
-
+body{
+    max-width: 144em;
+    height: 100vh;
+}
 .header-Nav{
+    display: inline-block;
     margin: 4.7rem 0 0 4.2rem;
 }
 .header-Nav a{
@@ -37,14 +41,12 @@ html{
     padding: 1.3rem 2.725rem;
     border-radius: 5px;
 }
-
 .main-img{
     display: inline-block;
     width: 59.518rem;
     height: 50rem;
     margin: 16.3rem 0 0 12.1rem;
 }
-
 .main_content{
     display: inline-block;
     margin-left: 8.482rem;
@@ -52,7 +54,6 @@ html{
 /* .main_content h1, .main_content p, .main_content .btn_learn {
     margin-left: 8.482rem;
 } */
-
 .main_content h1{
     width: 58.2rem;
     height: 16.4rem;
@@ -63,7 +64,6 @@ html{
     letter-spacing: .59px;
     text-align: left;
 }
-
 .main_content p{
     width: 49.3rem;
     height: 9.9rem;
@@ -75,7 +75,6 @@ html{
     letter-spacing: .5px;
     text-align: left;
 }
-
 .btn_learn{
     margin-top: 5.5rem;
     display: inline-block;
@@ -86,8 +85,36 @@ html{
     letter-spacing: 1px;
     text-align: left;
 }
+@media screen and (max-width: 1385px){
+    main{
+        max-width: 582px;
+        margin: auto;
+    }
+    .main_content, .main-img{
+        margin: 0;
+    }
+    .main-img{
+        position: absolute;
+        bottom: 0;
+    }
+    .main-img img{
+        margin: 100px 0 22px 0
+    }
+    .main_content{
+        /* position: absolute; */
+        margin: 76px 0 56px 0;
+    }
 
+}
+@media screen and (max-width: 45.619em){
+    html{
+        font-size: 62.5%;
+    }
 
+    .header-Nav :not(:nth-child(5)){
+        display: none;
+    }
+}
 
 
 

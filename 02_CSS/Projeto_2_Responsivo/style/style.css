@@ -113,11 +113,9 @@ main{
         height: 60%;
         top: 376px;
     }
-
     .header_nav{
         display: none;
     }
-
     .content{
         position: absolute;
         top: 0;
