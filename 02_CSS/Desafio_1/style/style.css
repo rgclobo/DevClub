@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-size: 62.5%; */
 }
-
 html{
     font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
@@ -86,7 +84,7 @@ body{
     letter-spacing: 1px;
     text-align: left;
 }
-@media screen and (max-width: 86.56em){
+@media screen and (max-width: 87.68em){
     main{
         max-width: 58.2rem;
         margin: auto;
@@ -95,7 +93,8 @@ body{
         margin: 0;
     }
     .main-img{
-        width: 58.2rem;
+        width: 45rem;
+        height: auto;
         position: absolute;
         bottom: 0;
     }
@@ -110,13 +109,13 @@ body{
     .main_content h1{
         text-align: left;
     }
-
 }
 @media screen and (max-width: 45.619em){
     .header-Nav :not(:nth-child(5)){
         display: none;
     }
     .header-Nav{
+        margin: 0;
         position: absolute;
         top: 1.7rem;
         right: 1.5rem;
@@ -124,16 +123,16 @@ body{
     .header-Nav a:nth-child(5){
         padding: .4rem 1.075rem;
     }
-
-
     main{
         max-width: 30.4rem;
     }
     .main_content{
-        margin: 0;
+        margin: 12.4rem 0 0;
+        width: 30.4rem;
+        /* text-align: center; */
     }
     .main_content h1{
-        width: 27.8rem;
+        width: 100%;
         height: 6rem;
         text-align: center;
         font-size: 3rem;
@@ -145,10 +144,19 @@ body{
         text-align: center;
         font-size: 1.8rem;
         line-height: 33px;
-        margin: 0;
+        margin: 2.9rem 0 0;
+    }
+    .btn_learn{
+        display: block;
+        text-align: center;
+    }
+    .main-img {
+        width: 31.2rem;
+        position: absolute;
+        bottom: 0;
+    }
+    .main-img img{
+        width: 100%;
+        margin: 0 0 2.2rem;
     }
 }
-
-
-
-
